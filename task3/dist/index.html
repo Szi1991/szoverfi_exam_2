@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Reading Wishlist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Reading Wislist</h1>
+    </header>
+
+
+    <main>
+      <article>
+        <h2>1984</h2>
+        <div class="book">by George Orwell, 1949</div>
+        <p class="p">
+          In an uncertain year, believed to be 1984, civilisation has been ravaged by world war, civil conflict, and
+revolution. Airstrip One (formerly known as Great Britain) is a province of Oceania, one of the three
+totalitarian super-states that rule the world. 
+        </p>
+      </article>
+
+      <article>
+        <h2>Brave New World</h2>
+        <div class="book">by Aldous Huxley, 1932</div>
+        <p class="p">
+          The novel opens in the World State city of London in AF (After Ford) 632 (AD 2540 in the Gregorian calendar), where citizens are engineered through artificial wombs and childhood indoctrination programmes into predetermined classes (or castes) based on intelligence and labour.
+        </p>
+      </article>
+
+      <article>
+        <h2>The Great Gatsby</h2>
+        <div class="book">by F. Scott Fitzgerald, 1925</div>
+        <p class="p">
+          In spring 1922, Nick Carraway—a Yale alumnus from the Midwest and a World War I veteran—journeys to New York City to obtain employment as a bond salesman. He rents a bungalow in the Long Island village of West Egg, next to a luxurious estate inhabited by Jay Gatsby, an enigmatic multi-millionaire who hosts dazzling soirées yet does not partake in them.
+        </p>
+      </article>
+
+      <article>
+        <h2>The Catcher in the Rye</h2>
+        <div class="book">by J.D. Salinger, 1951</div>
+        <p class="p">
+          Holden Caulfield recalls the events of a long weekend, shortly before the previous year's Christmas. The story begins at Pencey Preparatory Academy, a boarding school in Pennsylvania, where he has been expelled after failing all his classes, except English.
+
+        </p>
+      </article>
+    </main>
+
+
+
+    <footer>
+      <hr />
+      <p>Happy Reading!</p>
+    </footer>
+
+
+  </div>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBCmHlC5Qv_IrBan1T2oieX6btKxdQrgRo",
+      authDomain: "frontend-exam-2.firebaseapp.com",
+      projectId: "frontend-exam-2",
+      storageBucket: "frontend-exam-2.firebasestorage.app",
+      messagingSenderId: "48860776165",
+      appId: "1:48860776165:web:ac0bea4af19699ac12360c",
+      measurementId: "G-4B7JXX37MM"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>

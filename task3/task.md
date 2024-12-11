@@ -25,9 +25,9 @@ You need to create reading whishlist. The information about the books can be fou
 
 ### Style
 
-- Use the font [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville) on the page. The font size of the root element (`html`) should be 16px.
-- The background color of the page should be `#f9f5f0` and the text's color should be `#45171d`.
-- The page should be 600px wide at most, and it should be aligned center on the page. There should be a `2rem` space between the top of the viewport and the page's content, also a `1rem` left and right space even on small screen sizes.
+- Use the font [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville) on the page. The font size of the root element (`html`) should be 16px.ok
+- The background color of the page should be `#f9f5f0` and the text's color should be `#45171d`.ok
+- The page should be 600px wide at most, and it should be aligned center on the page. There should be a `2rem` space between the top of the viewport and the page's content, also a `1rem` left and right space even on small screen sizes.ok
 - There should be `1rem` gap between three parts (header, main, footer).
 - The title of the page should be `2rem` large and it should be bold.
 - The list of the book summaries should be separated with a `1rem` gap.
